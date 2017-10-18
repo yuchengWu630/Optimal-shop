@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>家居产品</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <!-- animation-effect -->
+    <link href="css/animate.css" rel="stylesheet">
+</head>
+<body>
+<!--1、头部-->
+<div class="header"></div>
+<!--2、面包屑导航-->
+<div class="breadcrumbs">
+    <ul class="breadcrumb animated slideInLeft">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>首页</a></li>
+        <li class="active">家具页</li>
+    </ul>
+</div>
+<!--3、分类及产品图片介绍-->
+<div class="products">
+    <!--3.1、分类及新品图片-->
+    <div class="categories-photo">
+        <!--分类面版-->
+        <div class="panel panel-default animated slideInUp">
+            <div class="panel-heading">
+                <h3 class="panel-title">分&nbsp;&nbsp;类</h3>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li><a href="products.html">热 销 产 品</a><span>(15)</span></li>
+                    <li><a href="furniture.html">家 庭 系 列</a><span>(16)</span></li>
+                    <li class="panel-body-special">
+                        <ul>
+                            <li><a href="furniture.html">炊 具</a><span>(2)</span></li>
+                            <li><a href="furniture.html">沙 发</a><span>(5)</span></li>
+                            <li><a href="furniture.html">餐 桌</a><span>(1)</span></li>
+                            <li><a href="furniture.html">新 品 上 市</a><span>(0)</span></li>
+                            <li><a href="furniture.html">家 居 装 饰</a><span>(1)</span></li>
+                        </ul>
+                    </li>
+                    <li><a href="furniture.html">装 饰 品</a><span>(15)</span></li>
+                    <li class="panel-body-special">
+                        <ul>
+                            <li><a href="furniture.html">挂 钟</a><span>(2)</span></li>
+                            <li><a href="furniture.html">新 品 上 市</a><span>(0)</span></li>
+                            <li><a href="furniture.html">灯 饰</a><span>(1)</span></li>
+                            <li><a href="furniture.html">顶 级 品 牌</a><span>(0)</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--新品图片-->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">新&nbsp;&nbsp;品</h3>
+            </div>
+            <div class="panel-body">
+                <ol>
+                    <!--
+                    <li>
+                        <p>
+                            <a href=""><img src="images/6.jpg" alt=""/></a>
+                        </p>
+                        <div>
+                            <h3>
+                                <a href="single.html">壁灯</a>
+                            </h3>
+                            <div class="evaluate-star">
+                                <img src="images/2.png"/>
+                                <img src="images/2.png"/>
+                                <img src="images/2.png"/>
+                                <img src="images/1.png"/>
+                                <img src="images/1.png"/>
+                            </div>
+                            <div class="item_price">$400</div>
+                            <a class="item_add" href="#">加入购物车</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p>
+                            <a href=""><img src="images/9.jpg" alt=""/></a>
+                        </p>
+                        <div>
+                            <h3>
+                                <a href="single.html">壁灯</a>
+                            </h3>
+                            <div class="evaluate-star">
+                                <img src="images/2.png"/>
+                                <img src="images/2.png"/>
+                                <img src="images/2.png"/>
+                                <img src="images/1.png"/>
+                                <img src="images/1.png"/>
+                            </div>
+                            <div class="item_price">$300</div>
+                            <a class="item_add" href="#">加入购物车</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p>
+                            <a href=""><img src="images/11.jpg" alt=""/></a>
+                        </p>
+                        <div>
+                            <h3>
+                                <a href="single.html">水晶手镯</a>
+                            </h3>
+                            <div class="evaluate-star">
+                                <img src="images/2.png"/>
+                                <img src="images/2.png"/>
+                                <img src="images/2.png"/>
+                                <img src="images/1.png"/>
+                                <img src="images/1.png"/>
+                            </div>
+                            <div class="item_price">$257</div>
+                            <a class="item_add" href="#">加入购物车</a>
+                        </div>
+                    </li>
+                    -->
+                </ol>
+            </div>
+        </div>
+        <!--广告图片-->
+        <div class="photo_ad">
+            <a href="single.html">
+                <img src="images/29.jpg" alt=" "/>
+            </a>
+            <div class="photo_ad-pos">
+                <h1>夏季系列</h1>
+                <h1>折扣最高可达</h1>
+                <span>55%</span>
+            </div>
+        </div>
+    </div>
+    <!--3.2、右侧商品图片展示-->
+    <div class="products-right">
+        <div class="products-right-top img-zoom-effect animated slideInRight">
+            <p>
+                <img src="images/28.jpg"/>
+            </p>
+            <div class="products-right-top-cover">
+                <h4>2017最新系列</h4>
+                <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+            </div>
+        </div>
+        <div id="products-right-grids" class="products-right-grids thumbnail-grids">
+            <!--
+            <div class="thumbnail">
+                <div class="thumbnail-images">
+                    <a href="single.html"><img src="images/30.jpg"/></a>
+                    <div class="thumbnail-images-pos">
+                        <a href="single.html">快速查看</a>
+                        <div>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <h4><a href="single.html">边桌</a></h4>
+                    <p>折叠桌方形桌子</p>
+                    <p>
+                        <s>￥325</s>
+                        <span class="item_price">￥250</span>
+                        <a class="item_add" href="#">加入购物车</a>
+                    </p>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail-images">
+                    <a href="single.html"><img src="images/33.jpg"/></a>
+                    <div class="thumbnail-images-pos">
+                        <a href="single.html">快速查看</a>
+                        <div>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <h4><a href="single.html">2座沙发</a></h4>
+                    <p>简约实木沙发</p>
+                    <p>
+                        <s>￥280</s>
+                        <span class="item_price">￥220</span>
+                        <a class="item_add" href="#">加入购物车</a>
+                    </p>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail-images">
+                    <a href="single.html"><img src="images/10.jpg"/></a>
+                    <div class="thumbnail-images-pos">
+                        <a href="single.html">快速查看</a>
+                        <div>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <h4><a href="single.html">脚踝链子</a></h4>
+                    <p>名族风复古脚踝链子</p>
+                    <p>
+                        <s>￥180</s>
+                        <span class="item_price">￥120</span>
+                        <a class="item_add" href="#">加入购物车</a>
+                    </p>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail-images">
+                    <a href="single.html"><img src="images/32.jpg"/></a>
+                    <div class="thumbnail-images-pos">
+                        <a href="single.html">快速查看</a>
+                        <div>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <h4><a href="single.html">机箱柜</a></h4>
+                    <p>4层多媒体机箱柜</p>
+                    <p>
+                        <s>￥325</s>
+                        <span class="item_price">￥250</span>
+                        <a class="item_add" href="#">加入购物车</a>
+                    </p>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail-images">
+                    <a href="single.html"><img src="images/6.jpg"/></a>
+                    <div class="thumbnail-images-pos">
+                        <a href="single.html">快速查看</a>
+                        <div>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <h4><a href="single.html">壁灯</a></h4>
+                    <p>简约过道灯壁灯</p>
+                    <p>
+                        <s>￥480</s>
+                        <span class="item_price">￥400</span>
+                        <a class="item_add" href="#">加入购物车</a>
+                    </p>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail-images">
+                    <a href="single.html"><img src="images/11.jpg"/></a>
+                    <div class="thumbnail-images-pos">
+                        <a href="single.html">快速查看</a>
+                        <div>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <h4><a href="single.html">水晶手镯</a></h4>
+                    <p>时尚奥地利水晶新款手镯</p>
+                    <p>
+                        <s>￥340</s>
+                        <span class="item_price">￥257</span>
+                        <a class="item_add" href="#">加入购物车</a>
+                    </p>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail-images">
+                    <a href="single.html"><img src="images/31.jpg"/></a>
+                    <div class="thumbnail-images-pos">
+                        <a href="single.html">快速查看</a>
+                        <div>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <h4><a href="single.html">电视柜</a></h4>
+                    <p>实木现代简约电视柜</p>
+                    <p>
+                        <s>￥585</s>
+                        <span class="item_price">￥489</span>
+                        <a class="item_add" href="#">加入购物车</a>
+                    </p>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail-images">
+                    <a href="single.html"><img src="images/9.jpg"/></a>
+                    <div class="thumbnail-images-pos">
+                        <a href="single.html">快速查看</a>
+                        <div>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <h4><a href="single.html">壁灯</a></h4>
+                    <p>全铜欧式客厅复古单头壁灯</p>
+                    <p>
+                        <s>￥360</s>
+                        <span class="item_price">￥300</span>
+                        <a class="item_add" href="#">加入购物车</a>
+                    </p>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail-images">
+                    <a href="single.html"><img src="images/34.jpg"/></a>
+                    <div class="thumbnail-images-pos">
+                        <a href="single.html">快速查看</a>
+                        <div>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <h4><a href="single.html">挂钟</a></h4>
+                    <p>时尚创意静音挂钟</p>
+                    <p>
+                        <s>￥475</s>
+                        <span class="item_price">￥415</span>
+                        <a class="item_add" href="#">加入购物车</a>
+                    </p>
+                </div>
+            </div>
+            -->
+        </div>
+        <nav class="numbering">
+            <ul class="pagination paging">
+                <!--
+                <li class="active"><a href="#products-right-grids">1</a></li>
+                <li><a href="#products-right-grids">2</a></li>
+                <li><a href="#products-right-grids">3</a></li>
+                <li><a href="#products-right-grids">4</a></li>
+                <li><a href="#products-right-grids">5</a></li>
+                -->
+            </ul>
+        </nav>
+    </div>
+</div>
+<!--7、底部信息-->
+<footer class="before-content"></footer>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/header_search.js"></script>
+<script src="js/furniture_cart.js"></script>
+<script src="js/scrollAnimate.js"></script>
+<script src="js/add_cart.js"></script>
+<script src="js/single_detail.js"></script>
+</body>
+</html>

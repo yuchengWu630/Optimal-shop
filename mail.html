@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <!-- animation-effect -->
+    <link href="css/animate.css" rel="stylesheet">
+</head>
+<body>
+<!--1、头部-->
+<div class="header"></div>
+<!--2、面包屑导航-->
+<div class="breadcrumbs">
+    <ul class="breadcrumb animated slideInLeft">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>首页</a></li>
+        <li class="active">邮件页</li>
+    </ul>
+</div>
+<!---->
+<div class="mail-us">
+    <div class="head-title animated zoomIn">
+        <h3><i></i>Mail Us<i></i></h3>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="mail-grids">
+        <div class="mail-grid-left">
+            <form>
+                <input type="text" placeholder="联系人" id="mail-name">
+                <input type="email" placeholder="邮箱" id="mail-address">
+                <input type="text" placeholder="主题" id="mail-theme">
+                <textarea id="mail-content" placeholder="内容...."></textarea>
+                <input type="submit" id="mail-bt" value="立即提交" >
+            </form>
+        </div>
+        <div class="mail-grid-right">
+            <img src="images/3.png"/>
+            <h4>Rita Williumson <span>Manager</span></h4>
+            <ul>
+                <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>Phone: +1234 567 893</li>
+                <li><i class="glyphicon glyphicon-envelope"></i>Email: <a>info@example.com</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--4、底部信息-->
+<footer class="before-content"></footer>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/header_search.js"></script>
+<script>
+    $(function(){
+        $('#mail-bt').click(function(e){
+            //1:阻止事件默认行为
+            e.preventDefault();
+            if($('#mail-name').val()&&$('#mail-address').val()&&$('#mail-theme').val()&&$('#mail-content').val()){
+                //在当前页面打开首页，且不可后退
+                location.replace('index.html');
+            }
+        })
+    });
+</script>
+</body>
+</html>

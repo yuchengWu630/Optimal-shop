@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>购物结算</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <!-- animation-effect -->
+    <link href="css/animate.css" rel="stylesheet">
+</head>
+<body>
+<!--1、头部-->
+<div class="header"></div>
+<!--2、面包屑导航-->
+<div class="breadcrumbs">
+    <ul class="breadcrumb animated slideInLeft">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>首页</a></li>
+        <li class="active">购物结算</li>
+    </ul>
+</div>
+<!--3.购物车-订单-->
+<!--3.1、顶部导航-->
+<div class="checkout-nav">
+    <div>
+        <ul class="checkout-nav-grids">
+            <li class="active">① 购物车</li>
+            <li>② 确定订单</li>
+            <li>③ 成功提交订单</li>
+        </ul>
+    </div>
+</div>
+<!--3.2、购物列表-->
+<div class="checkout">
+    <p>我的购物车</p>
+    <div class="checkout-right">
+        <table class="timetable_sub">
+            <thead>
+                <tr>
+                    <th>商品</th>
+                    <th>数量</th>
+                    <th>商品名</th>
+                    <th>单价(元)</th>
+                    <th>小计</th>
+                    <th>删除</th>
+                </tr>
+            </thead>
+            <tbody>
+            <!--
+                <tr>
+                    <td class="invert-image">
+                        <a><img src="images/22.jpg"/></a>
+                    </td>
+                    <td>
+                        <button>-</button><input type="text" value="1"/><button>+</button>
+                    </td>
+                    <td>男靴</td>
+                    <td>$290.00</td>
+                    <td class="sub_total">$290.00</td>
+                    <td>
+                        <div class="rem">
+                            <a class="close"></a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="invert-image">
+                        <a><img src="images/30.jpg"/></a>
+                    </td>
+                    <td>
+                        <button>-</button><input type="text" value="1"/><button>+</button>
+                    </td>
+                    <td>边桌</td>
+                    <td>$250.00</td>
+                    <td class="sub_total">$250.00</td>
+                    <td>
+                        <div class="rem">
+                            <a class="close"> </a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="invert-image">
+                        <a><img src="images/11.jpg"/></a>
+                    </td>
+                    <td>
+                        <button>-</button><input type="text" value="1"/><button>+</button>
+                    </td>
+                    <td>水晶手镯</td>
+                    <td>$299.00</td>
+                    <td class="sub_total">$299.00</td>
+                    <td>
+                        <div class="rem">
+                            <a class="close"> </a>
+                        </div>
+                    </td>
+                </tr>
+                -->
+            </tbody>
+        </table>
+    </div>
+    <div class="checkout-left">
+        <div>
+            总价：<span class="total">839.00</span>
+            <button>去结算</button>
+        </div>
+    </div>
+</div>
+<!--3.3、确认订单-->
+<div class="confirm-order">
+    <h3>填写订单信息</h3>
+    <form>
+        <div class="form-group">
+            <label for="link-person">联系人</label>
+            <input type="text" class="form-control" id="link-person">
+        </div>
+        <div class="form-group">
+            <label for="link-phoneNumber">联系电话</label>
+            <input type="text" class="form-control" id="link-phoneNumber">
+        </div>
+        <div class="form-group">
+            <label for="shipping-address">收货地址</label>
+            <textarea class="form-control" id="shipping-address"></textarea>
+        </div>
+        <div class="form-group">
+            <p>
+                <label>支付方式</label>
+            </p>
+            <input type="radio" name="pay-method" value="1" checked>货到付款
+            <input type="radio" name="pay-method" value="2">微信支付
+            <input type="radio" name="pay-method" value="3">支付宝支付
+            <input type="radio" name="pay-method" value="4">网银支付
+        </div>
+        <input type="button" id="confirm-bt" value="确认订单">
+    </form>
+</div>
+<!--3.4、成功提交订单-->
+<div class="post-order">
+    <h4>您已成功提交订单,订单号为: <span>98414301</span></h4>
+    <p>点击 <a href="" class="goto_order">查看</a>订单</p>
+</div>
+<!--7、底部信息-->
+<footer class="before-content"></footer>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/header_search.js"></script>
+<script src="js/scrollAnimate.js"></script>
+<script src="js/checkout_cart.js"></script>
+
+</body>
+</html>

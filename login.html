@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎登录</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <!-- animation-effect -->
+    <link href="css/animate.css" rel="stylesheet">
+</head>
+<body>
+<!--1、头部-->
+<div class="header"></div>
+<!--2、面包屑导航-->
+<div class="breadcrumbs">
+    <ul class="breadcrumb animated slideInLeft">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>首页</a></li>
+        <li class="active">登录页</li>
+    </ul>
+</div>
+<!--3、用户登录-->
+<div class="login-form" >
+    <div class="head-title animated zoomIn">
+        <h3><i></i>用户登录<i></i></h3>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="form-grids animated slideInUp">
+        <form>
+            <p class="alert">请在此处输入您的注册信息。</p>
+            <input type="text" name='uname' id="login-uname" placeholder="用户名"/>
+            <input type="password" name='upwd' id="login-upwd" placeholder="密码"/>
+            <input type="text" id="inputChk" placeholder="验证码">
+            <img src="data/verification_code_img.php" id="codepng">
+            <i>看不清 <a href="" id="login-change"> 换一张</a></i>
+            <!--<b id="chkOk" style="display:none;"></b>-->
+            <p id="login-info"></p>
+            <input type="button" value="提交登录信息" id="btn-login"/>
+        </form>
+    </div>
+    <h3>新用户</h3>
+    <p>
+        <a href="register.html">立即注册</a>
+        <span>(或)返回</span>
+        <a href="index.html">首页<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+    </p>
+</div>
+<!--底部信息-->
+<footer class="before-content"></footer>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/header_search.js"></script>
+<script src="js/scrollAnimate.js"></script>
+<script src="js/login_vali.js"></script>
+</body>
+</html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <!-- animation-effect -->
+    <link href="css/animate.css" rel="stylesheet">
+</head>
+<body>
+<!--1、头部-->
+<div class="header"></div>
+<!--2、面包屑导航-->
+<div class="breadcrumbs">
+    <ul class="breadcrumb animated slideInLeft">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>首页</a></li>
+        <li class="active">详情页</li>
+    </ul>
+</div>
+<!--3、分类及商品展示描述-->
+<div class="single">
+    <!--3.1、分类及图片-->
+    <div class="categories-photo">
+        <!--分类面版-->
+        <div class="panel panel-default animated slideInUp">
+            <div class="panel-heading">
+                <h3 class="panel-title">分&nbsp;&nbsp;类</h3>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li><a href="products.html">热 销 产 品</a><span>(15)</span></li>
+                    <li><a href="furniture.html">家 庭 系 列</a><span>(16)</span></li>
+                    <li class="panel-body-special">
+                        <ul>
+                            <li><a href="furniture.html">炊 具</a><span>(2)</span></li>
+                            <li><a href="furniture.html">新 品 上 市</a><span>(0)</span></li>
+                            <li><a href="furniture.html">家 居 装 饰</a><span>(1)</span></li>
+                        </ul>
+                    </li>
+                    <li><a href="furniture.html">装 饰 品</a><span>(15)</span></li>
+                    <li class="panel-body-special">
+                        <ul>
+                            <li><a href="furniture.html">挂 钟</a><span>(2)</span></li>
+                            <li><a href="furniture.html">新 品 上 市</a><span>(0)</span></li>
+                            <li><a href="furniture.html">灯 饰</a><span>(1)</span></li>
+                            <li><a href="furniture.html">顶 级 品 牌</a><span>(0)</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--广告图片-->
+        <div class="photo_ad">
+            <a href="single.html">
+                <img src="images/29.jpg" alt=" "/>
+            </a>
+            <div class="photo_ad-pos">
+                <h1>夏季系列</h1>
+                <h1>折扣最高可达</h1>
+                <span>55%</span>
+            </div>
+        </div>
+    </div>
+    <!--3.2、商品展示及描述-->
+    <div class="single-right">
+        <!--商品展示-->
+        <div class="single-product">
+            <!--1大3小图片-->
+            <!--
+            <div id="preview">
+                <div class="animated slideInUp">
+                    <img id="mImg" src="images/s1-m.jpg"/>
+                    <div id="mask"></div>
+                    <div id="superMask"></div>
+                </div>
+                <div id="largeDiv"></div>
+                <ul id="ul_list" class="animated slideInUp">
+                    <li>
+                        <img src="images/s1.jpg" class="active"/>
+                    </li>
+                    <li>
+                        <img src="images/s2.jpg"/>
+                    </li>
+                    <li>
+                        <img src="images/s3.jpg"/>
+                    </li>
+                </ul>
+            </div>
+            <div class="single-product-info animated slideInRight">
+                <h1>男士休闲衬衫</h1>
+                <h6>
+                    <s>￥325</s>
+                    <span class="item_price">￥250</span>
+                </h6>
+                <div class="evaluate-star">
+                    <img src="images/2.png"/>
+                    <img src="images/2.png"/>
+                    <img src="images/2.png"/>
+                    <img src="images/1.png"/>
+                    <img src="images/1.png"/>
+                </div>
+                <div class="product-info-description">
+                    <h4><i>商品描述：</i></h4>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum doloreeu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                </div>
+                <div class="color-choose">
+                    <h4>颜色：</h4>
+                    <ul class="list-inline">
+                        <li class="active"><a href="#"><span></span>灰色</a></li>
+                        <li><a href="#"><span  class="red"></span>红色</a></li>
+                        <li><a href="#"><span  class="blue"></span>蓝色</a></li>
+                        <li><a href="#"><span  class="purple"></span>紫色</a></li>
+                        <li><a href="#"><span  class="green"></span>绿色</a></li>
+                    </ul>
+                </div>
+                <div class="occasional">
+                    <h4>穿着场合：</h4>
+                    <div class="occasion-choose">
+                        <div>
+                            <label class="radio"><input type="radio" name="radio" checked><i></i>休闲</label>
+                        </div>
+                        <div>
+                            <label class="radio"><input type="radio" name="radio"><i></i>Party</label>
+                        </div>
+                        <div>
+                            <label class="radio"><input type="radio" name="radio"><i></i>正式</label>
+                        </div>
+                    </div>
+                </div>
+                <a href="checkout.html" class="item_add">加入购物车</a>
+            </div>
+            -->
+        </div>
+        <!--具体描述等-->
+        <div class="description">
+            <!--标签页-->
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#description" role="tab" data-toggle="tab">商品描述</a></li>
+                <li role="presentation"><a href="#reviews" role="tab" data-toggle="tab">评论（2）</a></li>
+                <li role="presentation" class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">其他信息&nbsp;<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#dropdown1" role="tab" data-toggle="tab">清洗</a></li>
+                        <li><a href="#dropdown2" role="tab" data-toggle="tab">保存</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <!--描述-->
+                <div id="description" role="tabpanel" class="tab-pane active">
+                    <h5>商品简要描述</h5>
+                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <!--评论（2）-->
+                <div id="reviews" role="tabpanel" class="tab-pane">
+                    <div class="bootstrap-tab-text-grid">
+                        <div class="bootstrap-tab-text-grid-left">
+                            <img src="images/4.png" alt=" " class="img-responsive" />
+                        </div>
+                        <div class="bootstrap-tab-text-grid-right">
+                            <ul>
+                                <li><a href="#">用户1</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-share" aria-hidden="true"></span>回复</a></li>
+                            </ul>
+                            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+                                vel eum iure reprehenderit.</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="bootstrap-tab-text-grid">
+                        <div class="bootstrap-tab-text-grid-left">
+                            <img src="images/5.png" alt=" " class="img-responsive" />
+                        </div>
+                        <div class="bootstrap-tab-text-grid-right">
+                            <ul>
+                                <li><a href="#">用户2</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-share" aria-hidden="true"></span>回复</a></li>
+                            </ul>
+                            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+                                vel eum iure reprehenderit.</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+                <!--其他信息-清洗-->
+                <div id="dropdown1" role="tabpanel" class="tab-pane">
+                    <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+                </div>
+                <!--其他信息-保存-->
+                <div id="dropdown2" role="tabpanel" class="tab-pane">
+                    <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--4、相关产品-->
+<div id="related-products">
+    <div class="related-products">
+        <div class="head-title">
+            <h3><i></i>相关产品<i></i></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque illum laudantium.</p>
+        </div>
+        <div class="thumbnail-grids">
+            <!--
+            <div class="thumbnail">
+                <div class="thumbnail-images">
+                    <a href="single.html"><img src="images/8.jpg"/></a>
+                    <div class="thumbnail-images-pos">
+                        <a href="single.html">快速查看</a>
+                        <div>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <h4><a href="single.html">运动鞋</a></h4>
+                    <p>PUMA网面跑步鞋本蓝色+灰色+黄色</p>
+                    <p>
+                        <s>￥280</s>
+                        <span class="item_price">￥199</span>
+                        <a class="item_add" href="#">加入购物车</a>
+                    </p>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail-images">
+                    <a href="single.html"><img src="images/7.jpg"/></a>
+                    <div class="thumbnail-images-pos">
+                        <a href="single.html">快速查看</a>
+                        <div>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <h4><a href="single.html">正式衬衫</a></h4>
+                    <p>男士新款商务正装 方领长袖衬衫 蓝色</p>
+                    <p>
+                        <s>￥325</s>
+                        <span class="item_price">￥250</span>
+                        <a class="item_add" href="#">加入购物车</a>
+                    </p>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail-images">
+                    <a href="single.html"><img src="images/9.jpg"/></a>
+                    <div class="thumbnail-images-pos">
+                        <a href="single.html">快速查看</a>
+                        <div>
+                            <img src="images/2.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                            <img src="images/1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <h4><a href="single.html">壁灯</a></h4>
+                    <p>全铜欧式客厅背景墙复古单头壁灯</p>
+                    <p>
+                        <s>￥360</s>
+                        <span class="item_price">￥300</span>
+                        <a class="item_add" href="#">加入购物车</a>
+                    </p>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail-images">
+                    <a href="single.html"><img src="images/11.jpg"/></a>
+                    <div class="thumbnail-images-pos">
+                        <a href="single.html">快速查看</a>
+                        <div>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/2.png"/>
+                            <img src="images/1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <h4><a href="single.html">水晶手镯</a></h4>
+                    <p>女欧美奢华时尚奥地利水晶新款手镯</p>
+                    <p>
+                        <s>￥340</s>
+                        <span class="item_price">￥257</span>
+                        <a class="item_add" href="#">加入购物车</a>
+                    </p>
+                </div>
+            </div>
+            -->
+        </div>
+    </div>
+</div>
+<!--5、底部信息-->
+<footer class="before-content"></footer>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/header_search.js"></script>
+<script src="js/single_cart.js"></script>
+<script src="js/add_cart.js"></script>
+<script src="js/single_detail.js"></script>
+<script src="js/scrollAnimate.js"></script>
+<script src="js/readingGlass.js"></script>
+
+</body>
+</html>
